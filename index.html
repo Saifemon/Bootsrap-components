@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--CSS link -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+<!--alerts-->
+     <section>
+     	<div class="container">
+     		<h2 class="bg-dark text-white text-center text-capitalize p-2">This is alert from components</h2>
+     		<div class="alert alert-danger" role="alert">A simple primary alert—check it out!</div>
+     		<div class="row mb-3">
+     			<div class="col-md-7"><div class="box"></div></div>
+     			<div class="col-md-5"><div class="box box2"></div></div>
+     		</div>
+     		<div class="alert alert-success">A simple primary <a href="#" class="alert-link">alert—check</a> it out!</div>
+     		<div class="row mb-3">
+     			<div class="col-md-7"><div class="box"></div></div>
+     			<div class="col-md-5"><div class="box box2"></div></div>
+     		</div>
+     		<!--additional content alert-->
+     		<div class="alert alert-warning" role="alert">
+     			<h4>Well done!</h4>
+     			<p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content..</p>
+     			<hr>
+     			<p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+     		</div>
+     		<hr class="hr">
+     		<!--dismissing alert-->
+     		<div class="alert alert-info alert-dismissible fade show" role="alert"><strong>Holy guacamole!</strong> You should check in on some of those fields below.
+     			<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="close"></button>
+     		</div>
+     		<hr class="hr">
+     		<div class="alert alert-secondary alert-dismissible" role="alert">
+     			<h4>Well done!</h4>
+     			<p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content..</p>
+     			<hr>
+     			<p>Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+     			<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="close"></button>
+     		</div>
+     	</div>
+     </section>
+<!--badges-->
+     <section>
+     	<div class="container">
+     		<h2 class="bg-dark text-white text-center text-capitalize p-2">This is badges from components</h2>
+     		<h1>Example heading <span class="badge bg-primary">New</span></h1>
+     		<hr class="hr">
+     		<button type="button" class="btn btn-primary mb-2">Notifications 
+     			<span class="badge bg-secondary">9</span>
+     			<span class="visually-hidden">unread messages</span>
+     		</button>
+     	</div>
+     </section>
+
+<!--breadcrumb start-->
+     <section>
+     	<div class="container">
+     		<nav aria-label="breadcrumb">
+     			<ol class="breadcrumb">
+     				<li class="breadcrumb-item active" aria-current="page">Home</li>
+     			</ol>
+     		</nav>
+
+     		<nav>
+     			<ol class="breadcrumb">
+     				<li class="breadcrumb-item"><a href="#">Home</a></li>
+     				<li class="breadcrumb-item active" aria-current="page">About</li>
+     			</ol>
+     		</nav>
+     	</div>
+     </section>
+<!--breadcrumb end-->
+
+<!--button start-->
+     <section>
+     	<div class="container">
+     		<h2 class="bg-dark text-white text-center text-capitalize p-2">This is Button from components</h2>
+     		<div class="row">
+     			<div class="d-flex justify-content-center">
+     				<button type="button" class="btn btn-primary text-capitalize clr mb-2">primary</button>
+     			</div>
+     			<hr class="hr">
+     			<div class="mb-3">
+     				<a class="btn btn-danger" role="button" href="#">Link</a>
+     				<button class="btn btn-primary" type="submit">Button</button>
+     				<input class="btn btn-dark" type="button" value="Input">
+     				<input class="btn btn-secondary" type="button" value="Submit">
+     				<input class="btn btn-success" type="button" value="Reset">
+     			</div>
+     			<hr class="hr">
+     			<div class="mb-3">
+     				<button type="button" class="btn btn-outline-primary">Primary</button>
+     				<button type="button" class="btn btn-outline-danger">Danger</button>
+     				<button type="button" class="btn btn-outline-success">Success</button>
+     				<button type="button" class="btn btn-outline-info">Info</button>
+     				<button type="button" class="btn btn-outline-dark">Dark</button>
+     				<button type="button" class="btn btn-outline-warning">Warning</button>
+     				<button type="button" class="btn btn-outline-light">Light</button>
+     				<button type="button" class="btn btn-outline-secondary">Secondary</button>
+     			</div>
+     			<hr class="hr">
+     			<div class="mb-3">
+     				<button type="button" class="btn btn-primary btn-lg">Large Button</button>
+     				<button type="button" class="btn btn-danger btn-lg">Large Button</button>
+     			</div>
+     			<hr class="hr">
+     			<div class="mb-3">
+     				<button type="button" class="btn btn-primary btn-sm">Small Button</button>
+     				<button type="button" class="btn btn-danger btn-sm">Small Button</button>
+     			</div>
+     			<hr class="hr">
+     			<hr class="hr">
+     			<div class="mb-3">
+     				<button type="button" class="btn btn-primary btn-lg" disabled>Large Button</button>
+     				<button type="button" class="btn btn-danger btn-lg" disabled>Large Button</button>
+     			</div>
+     			<hr class="hr">
+     			<div class="mb-3">
+     				<a href="#" class="btn btn-primary btn-lg disabled" tabindex="-1" role="button" aria-disabled="true">Primary link</a>
+                    <a href="#" class="btn btn-secondary btn-lg disabled" tabindex="-1" role="button" aria-disabled="true">Link</a>
+     			</div>
+     			<hr class="hr">
+     			<div class="mb-3 d-grid gap-2">
+     				<button type="button" class="btn btn-primary">Primary</button>
+     				<button type="button" class="btn btn-danger">Danger</button>
+     		    </div>
+     		    <hr class="hr">
+     		    <div class="d-grid gap-2 d-md-block">
+                  <button class="btn btn-primary" type="button">Primary</button>
+                  <button class="btn btn-danger" type="button">Danger</button>
+                </div>
+                <hr class="hr">
+     		    <div class="d-grid gap-2 col-6 mx-auto">
+                  <button class="btn btn-primary" type="button">Primary</button>
+                  <button class="btn btn-danger" type="button">Danger</button>
+                </div>
+                <hr class="hr">
+                <div class="d-grid gap-2 d-md-flex mb-3 justify-content-md-end">
+                  <button class="btn btn-primary me-md-2" type="button">Primary</button>
+                  <button class="btn btn-danger" type="button">Danger</button>
+                </div>
+                <hr class="hr">
+                <div class="mb-3">
+                     <button type="button" class="btn btn-primary" data-bs-toggle="button" autocomplete="off">Toggle button</button>
+                     <button type="button" class="btn btn-danger active" data-bs-toggle="button" autocomplete="off" aria-pressed="true">Active toggle button</button>
+                     <button type="button" disabled class="btn btn-secondary" data-bs-toggle="button" autocomplete="off">Disabled toggle button</button>
+                </div>
+                <hr class="hr">
+     	</div>
+     </section>
+<!--button end-->
+
+<!--button group start-->
+    <section>
+    	<div class="container">
+    		<h2 class="bg-dark text-white text-center text-capitalize p-2">This is Button Group from components</h2>
+    		<div class="btn-group" role="group" aria-label="basic-example">
+    			<button type="button" class="btn btn-primary active">Left</button>
+    			<button type="button" class="btn btn-danger">Middle</button>
+    			<button type="button" class="btn btn-secondary">Right</button>
+    		</div>
+    		<hr class="hr">
+    		<div class="btn-group">
+    			<a href="#" class="btn btn-primary active" aria-current="page">Active Link</a>
+    			<a href="#" class="btn btn-danger">Link two</a>
+    			<a href="#" class="btn btn-secondary">Link threes</a>
+    		</div>
+    		<hr class="hr">
+    		<div class="btn-group" role="group" aria-label="basic outline example">
+    			<button type="button" class="btn btn-outline-danger">Left</button>
+    			<button type="button" class="btn btn-outline-warning">Middle</button>
+    			<button type="button" class="btn btn-outline-success">Right</button>
+    		</div>
+    		<hr class="hr">
+    		<div class="btn-group" role="group" aria-label="basic checkbox toggle button link<">
+    			<input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+    			<label class="btn btn-danger" for="btncheck1">Checkbox 1</label>
+    			<input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+    			<label class="btn btn-warning" for="btncheck2">Checkbox 2</label>
+    			<input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+    			<label class="btn btn-success" for="btncheck3">Checkbox 3</label>
+    		</div>
+    		<hr class="hr">
+    		<div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+              <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off">
+              <label class="btn btn-outline-primary" for="btnradio1">Radio 1</label>
+
+              <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off"  checked>
+              <label class="btn btn-outline-danger" for="btnradio2">Radio 2</label>
+
+              <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+              <label class="btn btn-outline-warning" for="btnradio3">Radio 3</label>
+            </div>
+            <hr class="hr">
+            <div class="btn-toolbar" role="toolbar" aria-label="toolbar with button group">
+            	<div class="btn-group me-2" role="group" aria-labe="first group">
+            		<button type="button" class="btn btn-primary">1</button>
+            		<button type="button" class="btn btn-primary">2</button>
+            		<button type="button" class="btn btn-primary">3</button>
+            		<button type="button" class="btn btn-primary">4</button>
+            	</div>
+            	<div class="btn-group me-2" role="group" aria-labe="second group">
+            		<button type="button" class="btn btn-secondary">5</button>
+            		<button type="button" class="btn btn-secondary">6</button>
+            		<button type="button" class="btn btn-secondary">7</button>
+            	</div>
+            	<div class="btn-group" role="group" aria-labe="third group">
+            		<button type="button" class="btn btn-success">8</button>
+                </div>
+            </div>
+            <hr class="hr">
+            <div class="btn-toolbar mb-3" role="toolbar" aria-label="Toolbar with button groups">
+                <div class="input-group">
+                 <div class="input-group-text" id="btnGroupAddon2">@</div>
+                 <input type="text" class="form-control" placeholder="Input group example" aria-label="Input group example" aria-describedby="btnGroupAddon2">
+                </div>
+            </div>
+            <hr class="hr">
+    	</div>
+    </section>
+<!--button group end-->
+
+<!--card start-->
+    <section>
+    	<div class="container">
+
+    		<h2 class="bg-dark text-white text-center text-capitalize p-2">This is Card from components</h2>
+
+    		<div class="card" style="width: 18rem;">
+    			<img src="images/buisness1.jpg" alt="Business1">
+    			<div class="card-body">
+    				<h5 class="card-title">Card title</h5>
+    				<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    				 <a href="#" class="btn btn-primary">Go somewhere</a>
+    			</div>
+    		</div>
+    		<hr class="hr">
+    		<div class="card" style="width:18rem;">
+    			<img src="images/business2.jpg" alt="Business2">
+    			<div class="card-body">
+    				<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    			</div>
+    		</div>
+    		<hr class="hr">
+    		<div class="card" style="width: 18rem;">
+    			<div class="card-header">Card Header</div>
+    			<ul class="list-group list-group-flush">
+    				<li class="list-group-item">List one</li>
+    				<li class="list-group-item">List two</li>
+    				<li class="list-group-item">List three</li>
+    			</ul>
+    			<div class="card-footer">Card Footer</div>
+    		</div>
+    		<hr class="hr">
+    		<div class="card" style="width: 18rem;">
+    			<img src="images/business3.jpg" class="card-img-top" alt="Business3">
+    			<div class="card-body">
+    				<h5 class="card-title">Card Title</h5>
+    				<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    				<a href="#" class="btn btn-warning">Go somewhere</a>
+    			</div>
+    			<ul class="list-group list-group-flush">
+    				<li class="list-group-item">List one</li>
+    				<li class="list-group-item">List two</li>
+    				<li class="list-group-item">List three</li>
+    			</ul>
+    		</div>
+    		<hr class="hr">
+    		<div class="card">
+              <div class="card-header">
+                Featured
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <hr class="hr">
+            <div class="card">
+            	<div class="card-header">Card Header</div>
+            	<div class="card-body">
+            		<blockquote class="blockquote mb-0">
+            			<p>A well-known quote, contained in a blockquote element.</p>
+            			<footer class="blockquote-footer">Someone famous in <cite title="source title">Source Title</cite></footer>
+            		</blockquote>
+            	</div>
+            </div>
+            <hr class="hr">
+            <div class="card text-center">
+              <div class="card-header">
+                Featured
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+              <div class="card-footer text-muted">
+                2 days ago
+              </div>
+            </div>
+            <hr class="hr">
+            <h2 class="bg-dark text-white text-center text-capitalize p-2">This is Card Sizing from components</h2>
+            <div class="row">
+            	<div class="col-sm-6">
+            		<div class="card">
+            			<img src="images/business4.jpg" alt="Business4">
+            			<div class="card-body">
+            				<h5 class="card-title">Card Title</h5>
+            				<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            				<a href="#" class="btn btn-success">Go somewhere</a>
+            			</div>
+            		</div>
+            	</div>
+            	<div class="col-sm-6">
+            		<div class="card">
+            			<img src="images/business5.jpg" alt="Business5">
+            			<div class="card-body">
+            				<h5 class="card-title">Card Title</h5>
+            				<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            				<a href="#" class="btn btn-success">Go somewhere</a>
+            			</div>
+            		</div>
+            	</div>
+            </div>
+            <hr class="hr">
+            <div class="card mb-3">
+              <img src="images/business6.jpg" class="card-img-top" alt="Business6">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+              <img src="images/buisness1.jpg" class="card-img-bottom" alt="Business1">
+            </div>
+            <hr class="hr">
+            <div class="card bg-warning text-white">
+            	<img src="images/business6.jpg" class="card-img" alt="Business6">
+            	<div class="card-img-overlay">
+            		<h1 class="card-title">Card img title</h1>
+            		<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            		<p class="card-text">Last update 3 mins ago</p>
+            	</div>
+            </div>
+            <hr class="hr">
+            
+    	</div>
+    </section>
+<!--card end-->
+
+<!--embaded video start-->
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="video">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/9B2zMgePiI0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="video">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/ug4RQqdZBng" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr class="hr">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="location">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.0425597417434!2d90.36308051481666!3d23.817085584556605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c1d915066275%3A0xcc3bcff9cbf82d0f!2sShikhbe%20Shobai%20(Mirpur%20Branch)!5e0!3m2!1sen!2sbd!4v1619367426934!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--emabaded video end-->
+
+    <!-- JS links -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+  </body>
+</html>

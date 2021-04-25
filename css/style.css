@@ -1,0 +1,24 @@
+.box{
+	width:100%;
+	height:50px;
+	background-color: red;
+}
+.box2{
+	background-color: green;
+}
+.hr:not([size]) {
+    height: 10px;
+}
+.clr{
+	background-color: green;
+}
+.video{}
+.video iframe{
+	width: 100%;
+	height: 400px;
+}
+.location{}
+.location iframe{
+	width: 100%;
+	height: 500px;
+}
